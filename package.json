@@ -1,0 +1,22 @@
+{
+  "name": "chatbottv",
+  "version": "1.0.0",
+  "description": "Chatbot tieng viet dau tien",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  --exec babel-node src/server.js"
+  },
+  "author": "Day",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
