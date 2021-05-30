@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\Administrator\\Documents\\Document"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MariaDB",
+				"name": "localdulieu",
+				"database": "dulieu",
+				"username": "root",
+				"password": ""
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MariaDB",
+				"name": "localquancafe",
+				"database": "quancafe",
+				"username": "root",
+				"password": ""
+			}
+		],
+		"liveServer.settings.multiRootWorkspaceName": "Chatbot"
+	}
+}
